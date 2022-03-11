@@ -10,11 +10,15 @@
     --pop: #0541b1;
 }
 
+/*body*/
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--primary);
     background-color: var(--secondary);
 }
+
+/*header section*/
 
 header {
     background-color: var(--primary);
@@ -66,3 +70,30 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
+/*hero section*/
+
+.hero {
+    background-image: url("../images/bg.png");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero img {
+    height: 300px;
+}
+
+.hero .quote {
+    font-size: 36px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    color: rgb(8, 8, 8);
+}
+
+.hero .quote #quote-text {
+    font-size: 46px;
+}
