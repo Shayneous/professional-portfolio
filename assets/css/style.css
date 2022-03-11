@@ -97,3 +97,36 @@ header nav ul li a:hover {
 .hero .quote #quote-text {
     font-size: 46px;
 }
+
+/*title class styling (about me, my projects, contact me)*/
+
+.title {
+    border-right: 5px solid var(--pop);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.title h2 {
+    font-size: 38px;
+}
+
+/*about me section*/
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+
