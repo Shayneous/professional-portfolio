@@ -7,94 +7,118 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <!--navigation-->
-    <header>
-        <h1>SHAYNE GANNESS</h1>
+    <body>
+        <header>
+            <div><h1>Shayne Ganness</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-projects">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-        <h2>Professional Portfolio</h2>
-
-        <Nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-projects">My Projects</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </Nav>
-    </header>
-
-    <Section class="portrait">
-        <div class="portrait-img">
-            <img src="./assets/images/portrait.jpg" alt="" />
-        </div>
-            <div id="about-me" class="title" style="color: white;">
-            <h1>About Me</h1>
-
-
-            <div class="bio" style="color: white;"></div>
-            <p>
-
-            </p>
-        </div> 
-    </Section>
-    
-    <section id="my-projects">
-        <div class="title">
-            <h1>Projects</h1>
+        <section class="hero">
+            <div>
+                <img src="./assets/images/portrait.jpg" alt="">
             </div>
-            <div class="grid-container-wrapper">
-                <div class="grid-container">
-                    <div class="place_1 grid-item">
-                        <p class="grid-text">On-Demand CRM</p>
-                        <p class="text">On-Demand CRM can be used to see, input and extract data on a particular client profile. The application can be used as a a prospecting and storing tool to keep your list of potential clients orginized.</p>
-                        <a href="https://mysterious-badlands-54283.herokuapp.com/5"><img class="grid-img"
-                            src="assets/images/placeimg_1.jpg"></a>
+            <div class="quote">
+                <blockquote>
+                    <p id="quote-text">
+                        The true sign of intelligence is not knowledge but imagination. 
+                    </p>
+                    <p>
+                        Albert Einstein
+                    </p>
+                </blockquote>
+            </div>
+        </section>
+    
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+
+            <div>
+                <p>
+                    The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start. ding﻿
+                </p>
+            </div>
+        </section>
+
+        <section id="my-projects" class="my-projects">
+            <div class="title"><h2>My Projects</h2></div>
+            <div class = "projects-grid-wrapper">
+                <div class="projects-grid">
+
+                    <a href="https://mysterious-badlands-54283.herokuapp.com/5" target="_blank" class="project on-demand-crm">
+                        <div class="project-label">
+                            <h3>On-Demand CRM</h3>
+                            <p>Javascript/Express/MySQL/Handlebars</p>
+                        </div>
+                    </a>
+
+                    <a href="https://stephanreilly.itch.io/privacy-protectors" target="_blank" class="project privacy-protectors">
+                        <div class="project-label">
+                            <h3>Privacy Protectors</h3>
+                            <p>GameMaker/Fl Studio</p>
+                        </div>
+                    </a>
+
+                </a>
+                <a href="https://www.thesputnik.ca/students-help-design-board-game/" target="_blank" class="project suspect">
+                    <div class="project-label">
+                        <h3>Suspect</h3>
+                        <p>Game Design and Development</p>
                     </div>
-                    <div class="place_2 grid-item">
-                        <p class="grid-text">Privacy Protectors</p>
-                        <p class="text">An action-sim about protecting your privacy from scammers.</p>
-                        <a href="https://stephanreilly.itch.io/privacy-protectors"><img class="grid-img"
-                            src="assets/images/placeimg_2.gif"></a>
+                </a>
+
+                <a href="#" target="_blank"  class="project project4">
+                    <div class="project-label">
+                        <h3>Project 4</h3>
+                        <p>Placeholder</p>
                     </div>
-                    <div class="place_3 grid-item">
-                        <p class="grid-text">Suspect</p>
-                        <p class="text">A board game where players utilize teamwork and critical thinking to solve workplace crimes.</p>
-                        <a href="https://www.thesputnik.ca/students-help-design-board-game/"><img class="grid-img"
-                            src="assets/images/placeimg_3.jpg"></a>                        
+                </a>
+
+                <a href="#" target="_blank"  class="project project5">
+                    <div class="project-label">
+                        <h3>Project 5</h3>
+                        <p>Placeholder</p>
                     </div>
+                </a>
 
                 </div>
             </div>
     </section>
 
-    <section id="contact-me">
-        <div class="title">
-            <h1>Contact Me</h1>
-        </div>
-        <footer>
-            <div>
+    <footer id="contact-me">
+        <div class="title"><h2>Contact Me</h2></div>
+        <div class="content-wrapper">
+            <div id="contact-list">
                 <ul>
                     <li>
-                        <a>(647)-271-9291</a>
+                        <a href="mailto:shaynemganness@gmail.com">Email</a>
                     </li>
                     <li>
-                        <a href="mailto:shaynemganness@gmail.com">shaynemganness@gmail.com</a>
+                        <a href="https://github.com/Shayneous" target="_blank">GitHub</a>
                     </li>
                     <li>
-                        <a href="https://github.com/Shayneous">Github</a>
+                        <a href="https://www.linkedin.com/in/shayne-ganness-00829711b/" target="_blank">LinkedIn</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/shayne-ganness-00829711b/">LinkedIn</a>
+                        <p>(647)271-9291</p>
                     </li>
                 </ul>
             </div>
-        </footer>
-    </section>      
+        </div>
+    </footer>
 </body>
-</html>    
+</html>
     
