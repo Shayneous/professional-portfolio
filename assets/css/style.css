@@ -130,3 +130,76 @@ header nav ul li a:hover {
     width: 90%;
 }
 
+/*my projects styling*/
+
+.my-projects {
+    padding: 28px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
+
+.my-projects h2 {
+    color: var(--secondary);
+}
+
+.projects-grid-wrapper {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.project {
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+
+.project:hover {
+    opacity: 1.0;
+}
+
+.on-demand-crm {
+    grid-column: 1/3;
+    grid-row: span 2;
+    background-image: url("../images/placeimg_1.jpg");
+}
+
+.privacy-protectors {
+    background-image: url("../images/placeimg_2.gif");
+    background-position: 50% 15%;
+}
+
+.suspect {
+    background-image: url("../images/placeimg_3.jpg");
+    background-position: 60% 50%;
+}
+
+.project4 {
+    background-image: url("../images/placeimg_4.jpg");
+}
+
+.project5 {
+    background-image: url("../images/placeimg_5.jpg");
+}
+
+.project-label {
+    background-color: lightgray;;
+    color: var(--primary);
+    padding: 10px;
+}
